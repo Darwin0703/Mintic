@@ -1,0 +1,19 @@
+p {
+    color: red;
+}
+
+#conID {
+    color: rgb(red, green, blue);
+}
+
+.minuscula {
+    color: green;
+    text-transform: lowercase;
+    text-align: left;
+    width: 300px;
+    height: 100px;
+}
+
+.mayuscula {
+    text-transform: uppercase;
+}

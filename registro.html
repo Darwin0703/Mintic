@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <script defer type="text/javascript" src="JS/registro.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+
+<body>
+    <form id="form_registro_usuario">
+        <div id="formulario1">
+            <input id="in_usuario" type="text" placeholder="Usuario">
+            <br><br>
+            <input id="in_contrasena" type="password" placeholder="Contraseña">
+            <br><br>
+            <input id="btn_enviar_registro" type="button" name="" value="Enviar" onclick="agregarRegistro();filtrarPorContrasena();validar_nombreUsuario();validar_contrasena()">
+        </div>
+    </form>
+</body>
+
+</html>
